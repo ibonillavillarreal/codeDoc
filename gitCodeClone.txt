@@ -18,7 +18,7 @@ git remote add origin https://github.com/ibonillavillarreal/LT-API-GAS.git
 git push -u origin main
 git push -f origin main
 git pull -u origin main
-git pull -f origin main
+git pull -f origin mainnpm 
 
 
 
@@ -49,3 +49,54 @@ git push -u origin main
 git push -f origin main
 git pull -u origin main
 git pull -f origin main
+
+
+///////////////////////////////////////////////////////////////////////////
+///  - Cmd oara Uodate API modo Desarollador - update json paquetes y dependencias 
+npm install 
+npm i node 
+---  ejecutar el api con paquete nodemon (sirve para el levantamiento automatico de la api en desarrollo y recuperar los crashed
+nodemon main.js
+--- si la pc no tiene permiso para ejecutar script se tendra que abrir los permisos en el power shell - ver el sitio
+https://www.alexmedina.net/habilitar-la-ejecucion-de-scripts-para-powershell/
+
+---- si todo anda bien - dar permiso al corta fuego y puertos por donde se comunican los server (firewall windows o ctable linux)
+---- si todo anda bien ya esta lista la api para trabajar en el desarrollo y le deve de dar un mensaje de server api esta corriendo en puerto 3000
+
+
+
+///////////////////////////////////////////////////////////////////////////
+///  - Cmd oara Uodate APP SPA modo Desarollador - update json paquetes y dependencias 
+
+npm install 
+npm i node 
+ng version   //*** Debe de salir la version del proyecto spa, version npm, y version node 
+// realizar el primer commit para alinearce con la app del repositorio 
+// realizar las configuraciones para que la app se conectre a la api dado a que esto trabaja con ip local 
+// correr cmd
+cmd 
+ipconfig /all
+ver en la ip v4   public  url: string = "http://172.16.23.203:3000"; para ponerlo en la APP para que los servicios se conecten.
+en : App/utils/Diccionarykeys
+ver las las credenciales de la base de datos para conectar la API - ver en la API en config/conexion 
+    user:'sa',
+    password:'******',
+    database:'SIGA-CNU',    
+    server:'hostServer',
+
+///
+ng serve - o //*** correr proyecto en el browser en modo desarrollador 
+
+///   seguir desarrollando el producto 
+
+
+
+
+
+
+
+
+
+
+
+
