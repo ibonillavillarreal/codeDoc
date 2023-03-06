@@ -1,3 +1,44 @@
+
+////// *** Credenciales para el repo Git Hub *** //////
+https://github.com/ibonillavillarreal/LT-API-GAS
+user :  ibonillavillarreal@gmail.com
+psw  :  nnppmm$%2010 
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//// repo de API-GAS LTs - path add origin BACKEND
+echo "# codeDoc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ibonillavillarreal/LT-API-GAS.git
+git push -u origin main
+git push -f origin main
+git pull -u origin main
+git pull -f origin main
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//// repo de APP-GAS LTs - path add origin
+echo "# codeDoc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ibonillavillarreal/LT-APP-GAS.git
+git push -u origin main
+git push -f origin main
+git pull -u origin main
+git pull -f origin main
+
+
+
+///////////////////////////////////////////////////////////////////////////
+///  - Documentacion de comandos 
 echo "# codeDoc" >> README.md
 git init
 git add README.md
@@ -5,9 +46,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ibonillavillarreal/codeDoc.git
 git push -u origin main
-
-
-git remote add origin https://github.com/ibonillavillarreal/codeDoc.git
-git branch -M main
-git push -u origin main
-
+git push -f origin main
+git pull -u origin main
+git pull -f origin main
