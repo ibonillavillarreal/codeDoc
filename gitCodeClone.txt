@@ -14,11 +14,11 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/ibonillavillarreal/LT-API-GAS.git
-git push -u origin main
-git push -f origin main
-git pull -u origin main
-git pull -f origin mainnpm 
+git remote add origin_api https://github.com/ibonillavillarreal/LT-API-GAS.git
+git push -u origin_api main
+git push -f origin_api main
+git pull -u origin_api main
+git pull -f origin_api mainnpm 
 
 
 
@@ -29,11 +29,11 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add originapp https://github.com/ibonillavillarreal/LT-APP-GAS.git
-git push -u origin main
-git push -f origin main
-git pull -u origin main
-git pull -f origin main
+git remote add origin_app https://github.com/ibonillavillarreal/LT-APP-GAS.git
+git push -u origin_app main
+git push -f origin_app main
+git pull -u origin_app main
+git pull -f origin_app main
 
 
 
@@ -44,11 +44,11 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/ibonillavillarreal/codeDoc.git
-git push -u origin main
-git push -f origin main
-git pull -u origin main
-git pull -f origin main
+git remote add origin_doc https://github.com/ibonillavillarreal/codeDoc.git
+git push -u origin_doc main
+git push -f origin_doc main
+git pull -u origin_doc main
+git pull -f origin_doc main
 
 
 ///////////////////////////////////////////////////////////////////////////
