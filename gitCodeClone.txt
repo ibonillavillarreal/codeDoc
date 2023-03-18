@@ -52,7 +52,7 @@ git pull -f origin_doc main
 
 
 ///////////////////////////////////////////////////////////////////////////
-///  - Cmd oara Uodate API modo Desarollador - update json paquetes y dependencias 
+///  - Cmd para Update API modo Desarollador - update json paquetes y dependencias 
 npm install 
 npm i node 
 ---  ejecutar el api con paquete nodemon (sirve para el levantamiento automatico de la api en desarrollo y recuperar los crashed
@@ -66,7 +66,7 @@ https://www.alexmedina.net/habilitar-la-ejecucion-de-scripts-para-powershell/
 
 
 ///////////////////////////////////////////////////////////////////////////
-///  - Cmd oara Uodate APP SPA modo Desarollador - update json paquetes y dependencias 
+///  - Cmd para Update APP SPA modo Desarollador - update json paquetes y dependencias 
 
 npm install 
 npm i node 
@@ -89,7 +89,10 @@ ng serve - o //*** correr proyecto en el browser en modo desarrollador
 
 ///   seguir desarrollando el producto 
 
-
+///  LOGROS 
+100 % estructura terminada 
+80  % funcionalidades a usuario terminada 
+20  % pendientes de terminar modulo de sonido y detalles  
 
 
 
